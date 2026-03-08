@@ -1,13 +1,13 @@
 # Exercise 1: Box Detection using RANSAC and Image Processing
 
-## Type
-Group assignment
+This assignment was completed as part of my Computer Vision coursework at FAU.
 
-## Description
-This exercise focuses on box detection using RANSAC and image processing techniques.
+## Task Summary
+The goal was to detect a box from distance images and point cloud data using image processing and a custom RANSAC-based plane detection pipeline.
 
-## Files
-- `exercise-01.pdf` — assignment instructions
-- code files — implementation
-- `data/` — input data used for the exercise
-- `results/` — output images or results
+## My Work
+- loaded and visualized amplitude, distance, and point cloud data
+- implemented plane fitting with RANSAC
+- extracted floor and box top planes
+- estimated box dimensions
+- visualized results
